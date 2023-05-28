@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+}
+img{
+    width: 500px;
+    height: 450px;
+    display: inline-block;
+    padding: 10px;
+}
+footer{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 980px) {
+    #pagewrap{
+        width: 95%;
+    }  
+    #content{
+        width: 60%;
+        padding: 3% 4%;
+    } 
+    #sidebar{
+        width: 30%;
+    }
+}
+header{
+    margin-top: auto;
+    font-size: large;
+}
